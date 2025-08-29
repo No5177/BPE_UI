@@ -1,0 +1,23 @@
+[Unit]
+Description=Kiosk Mode Browser for Project UI
+# 確保在圖形介面和網路都準備好之後才啟動
+Wants=graphical.target
+After=graphical.target network-online.target
+
+[Service]
+# 以 'pi' 使用者身份執行，避免使用 root
+User=pi
+# 設定必要的環境變數，讓瀏覽器能在正確的顯示器上開啟
+Environment=DISPLAY=:0.0
+# 瀏覽器啟動指令，請修改成你的網址
+ExecStart=/usr/bin/chromium-browser --kiosk --disable-infobars --noerrdialogs http://localhost:1688
+
+# --- 自我修復能力的關鍵設定 ---
+# Restart=always: 無論是正常退出還是異常崩潰，總是嘗試重啟
+# RestartSec=10: 在嘗試重啟前，先等待 10 秒鐘。這可以防止因啟動失敗而陷入瘋狂重啟的循環
+Restart=always
+RestartSec=10
+
+[Install]
+# 定義這個服務應該在哪個系統層級下被啟用
+WantedBy=graphical.target

@@ -1,0 +1,48 @@
+{
+  "V-totle": 59.85,
+  "Vmax": 4.01,
+  "Vmin": 3.97,
+  "Finish_ch": 2,
+  "Ch_INFO": [
+    {
+      "Ch": 1,
+      "V": 4.00,
+      "Status": "Run"
+    },
+    {
+      "Ch": 2,
+      "V": 3.99,
+      "Status": "Run"
+    },
+    {
+      "Ch": 3,
+      "V": 4.01,
+      "Status": "Finish"
+    },
+    {
+      "Ch": 4,
+      "V": 3.97,
+      "Status": "Finish"
+    },
+    {
+      "Ch": 5,
+      "V": 0.00,
+      "Status": "Standby"
+    },
+    {
+      "Ch": 6,
+      "V": 3.98,
+      "Status": "Alarm"
+    },
+    {
+      "Ch": 7,
+      "V": 0.00,
+      "Status": "Off-line"
+    },
+    {
+      "Ch": 8,
+      "V": 3.99,
+      "Status": "REV"
+    }
+  ]
+}

@@ -1,0 +1,154 @@
+plan
+
+使用namesapace
+manager=Manager()
+bpe=manager.namespace
+
+bpe.shard_data=manager.dic()
+
+{
+  "10": {
+    "voltage": null,
+    "current": null,
+    "status": "Offline",
+    "timestamp": "2025-08-24 04:59:07"
+  },
+  "11": {
+    "voltage": null,
+    "current": null,
+    "status": "Offline",
+    "timestamp": "2025-08-24 04:59:08"
+  },
+  "12": {
+    "voltage": null,
+    "current": null,
+    "status": "Offline",
+    "timestamp": "2025-08-24 04:59:08"
+  },
+  "13": {
+    "voltage": null,
+    "current": null,
+    "status": "Offline",
+    "timestamp": "2025-08-24 04:59:08"
+  },
+  "14": {
+    "voltage": null,
+    "current": null,
+    "status": "Offline",
+    "timestamp": "2025-08-24 04:59:08"
+  },
+  "15": {
+    "voltage": null,
+    "current": null,
+    "status": "Offline",
+    "timestamp": "2025-08-24 04:59:08"
+  },
+  "16": {
+    "voltage": null,
+    "current": null,
+    "status": "Offline",
+    "timestamp": "2025-08-24 04:59:08"
+  },
+  "17": {
+    "voltage": null,
+    "current": null,
+    "status": "Offline",
+    "timestamp": "2025-08-24 04:59:08"
+  },
+  "18": {
+    "voltage": null,
+    "current": null,
+    "status": "Offline",
+    "timestamp": "2025-08-24 04:59:08"
+  },
+  "19": {
+    "voltage": null,
+    "current": null,
+    "status": "Offline",
+    "timestamp": "2025-08-24 04:59:08"
+  },
+  "20": {
+    "voltage": null,
+    "current": null,
+    "status": "Offline",
+    "timestamp": "2025-08-24 04:59:08"
+  },
+  "21": {
+    "voltage": null,
+    "current": null,
+    "status": "Offline",
+    "timestamp": "2025-08-24 04:59:08"
+  },
+  "22": {
+    "voltage": null,
+    "current": null,
+    "status": "Offline",
+    "timestamp": "2025-08-24 04:59:08"
+  },
+  "23": {
+    "voltage": null,
+    "current": null,
+    "status": "Offline",
+    "timestamp": "2025-08-24 04:59:08"
+  },
+  "24": {
+    "voltage": null,
+    "current": null,
+    "status": "Offline",
+    "timestamp": "2025-08-24 04:59:08"
+  },
+  "09": {
+    "voltage": null,
+    "current": null,
+    "status": "Offline",
+    "timestamp": "2025-08-24 04:59:07"
+  },
+  "08": {
+    "voltage": null,
+    "current": null,
+    "status": "Offline",
+    "timestamp": "2025-08-24 04:59:07"
+  },
+  "07": {
+    "voltage": null,
+    "current": null,
+    "status": "Offline",
+    "timestamp": "2025-08-24 04:59:07"
+  },
+  "06": {
+    "voltage": null,
+    "current": null,
+    "status": "Offline",
+    "timestamp": "2025-08-24 04:59:07"
+  },
+  "05": {
+    "voltage": null,
+    "current": null,
+    "status": "Offline",
+    "timestamp": "2025-08-24 04:59:07"
+  },
+  "04": {
+    "voltage": null,
+    "current": null,
+    "status": "Offline",
+    "timestamp": "2025-08-24 04:59:07"
+  },
+  "03": {
+    "voltage": null,
+    "current": null,
+    "status": "Offline",
+    "timestamp": "2025-08-24 04:59:07"
+  },
+  "02": {
+    "voltage": 3.456,
+    "current": 5.123,
+    "status": "Run",
+    "timestamp": "2025-08-24 05:12:29"
+  },
+  "01": {
+    "voltage": 2.777,
+    "current": 9.456,
+    "status": "Standby",
+    "timestamp": "2025-08-24 05:12:29"
+  }
+}
