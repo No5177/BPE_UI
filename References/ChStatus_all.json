@@ -1,7 +1,13 @@
 {
-  "V-totle": 59.85,
-  "Vmax": 4.01,
-  "Vmin": 3.97,
+  "V_totle": 59.85,
+  "V_max": {
+    "Ch": 3,
+    "V": 4.01
+  },
+  "V_min": {
+    "Ch": 4,
+    "V": 3.97
+  },
   "Finish_ch": 2,
   "Ch_INFO": [
     {
@@ -37,7 +43,7 @@
     {
       "Ch": 7,
       "V": 0.00,
-      "Status": "Off-line"
+      "Status": "Off_line"
     },
     {
       "Ch": 8,
